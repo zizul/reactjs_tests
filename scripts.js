@@ -1,0 +1,1 @@
+ReactDOM.render(<h1>Witaj World</h1>, document.getElementById('root'));
