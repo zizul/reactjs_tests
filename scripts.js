@@ -1,4 +1,4 @@
-ReactDOM.render(<h1>Witaj World</h1>, document.getElementById('root'));
+ReactDOM.render(<h1>Witaj World</h1>, document.getElementById('header1'));
 
 var ToggleText = React.createClass({
   getInitialState: function () {
@@ -34,4 +34,4 @@ var ToggleText = React.createClass({
   }
 });
 
-ReactDOM.render(<ToggleText default="World" alt="Mars" />, document.getElementById('root'));
+ReactDOM.render(<ToggleText default="World" alt="Mars" />, document.getElementById('header2'));
